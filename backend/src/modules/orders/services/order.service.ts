@@ -11,7 +11,5 @@ export class OrderService {
     private orderRepository: Repository<OrderEntity>,
   ) {}
 
-  createOrder(order: CreateOrderDto): Promise<OrderEntity> {
-    return 
-  }
+
 }
